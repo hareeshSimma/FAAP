@@ -14,6 +14,7 @@ import { AffiliatedunitsComponent } from './affiliatedunits/affiliatedunits.comp
 import { GallaryComponent } from './gallary/gallary.component';
 import { ContactusComponent } from './contactus/contactus.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { ContactusComponent } from './contactus/contactus.component';
    
     AffiliatedunitsComponent,
     GallaryComponent,
-    ContactusComponent
+    ContactusComponent,
+  
   ],
   imports: [
     BrowserModule,
