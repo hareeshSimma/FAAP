@@ -15,7 +15,7 @@ const routes: Routes = [
       { path: 'home',  component: DashboardComponent },
       { path: 'history',  component: HistoryComponent },
       { path: 'affiliatedunits',  component: AffiliatedunitsComponent },
-      { path: 'galary',  component: GallaryComponent },
+      { path: 'gallery',  component: GallaryComponent },
       { path: 'contactus',  component: ContactusComponent },
       
 
