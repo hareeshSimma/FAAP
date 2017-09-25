@@ -13,6 +13,8 @@ import { HistoryComponent } from './history/history.component';
 import { AffiliatedunitsComponent } from './affiliatedunits/affiliatedunits.component';
 import { GallaryComponent } from './gallary/gallary.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { UserService } from './user.service';
+
 
 
 @NgModule({
@@ -34,7 +36,7 @@ import { ContactusComponent } from './contactus/contactus.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
