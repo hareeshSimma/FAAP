@@ -3,7 +3,7 @@
           <div class="left-navigation sidebar1">
                     <ul class="list">
                        
-                        <li class="active"><div id="an" (click)="onClick($event)">Anantapur</div></li>
+                        <li class="active"><div id="an" (click)="onClick($event,1)">Anantapur</div></li>
                         <li class="active"><div id="ch" (click)="onClick($event)">Chittoor</div></li>
                         <li class="active"><div id="ysr" (click)="onClick($event)">YSR Kadapa</div></li>
                         <li class="active"><div id="kur" (click)="onClick($event)">Kurnool</div></li>
@@ -24,13 +24,15 @@
 </div>
 
 <div class="col-xs-12 col-sm-10">
+   
     <div *ngIf="value == 'an' "> 
            Anantapur is a city in Anantapur district of the Indian state of Andhra Pradesh.
              It is the mandal headquarters of Anantapur mandal and also the divisional headquarters of Anantapur revenue division.
              The city is located on National Highway 44.
               It was also the headquarters of the Datta Mandalam (Rayalaseema districts of Andhra Pradesh and Bellary district of Karnataka) in 1799. 
               It was also a position of strategic importance for the British Indian Army during the Second World War.
-    </div>
+    
+</div>
     <div *ngIf="value == 'ch'">
            Chittoor district is a district in Rayalaseema region of the Indian state of Andhra Pradesh. 
             The district headquarters is located at Chittoor. 
