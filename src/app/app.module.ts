@@ -14,6 +14,7 @@ import { AffiliatedunitsComponent } from './affiliatedunits/affiliatedunits.comp
 import { GallaryComponent } from './gallary/gallary.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { UserService } from './user.service';
+import { ElectionsComponent } from './elections/elections.component';
 
 
 
@@ -28,6 +29,7 @@ import { UserService } from './user.service';
     AffiliatedunitsComponent,
     GallaryComponent,
     ContactusComponent,
+    ElectionsComponent,
   
   ],
   imports: [

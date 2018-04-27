@@ -5,6 +5,7 @@ import { HistoryComponent } from './history/history.component';
 import { AffiliatedunitsComponent } from './affiliatedunits/affiliatedunits.component';
 import { GallaryComponent } from './gallary/gallary.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { ElectionsComponent } from './elections/elections.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
       { path: 'affiliatedunits',  component: AffiliatedunitsComponent },
       { path: 'gallery',  component: GallaryComponent },
       { path: 'contactus',  component: ContactusComponent },
+      { path: 'elections',  component: ElectionsComponent },
       
 
     ]
