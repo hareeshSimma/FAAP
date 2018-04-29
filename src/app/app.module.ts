@@ -15,6 +15,8 @@ import { GallaryComponent } from './gallary/gallary.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { UserService } from './user.service';
 import { ElectionsComponent } from './elections/elections.component';
+import { PasteventsComponent } from './pastevents/pastevents.component';
+import { AchieventsComponent } from './achievents/achievents.component';
 
 
 
@@ -30,6 +32,8 @@ import { ElectionsComponent } from './elections/elections.component';
     GallaryComponent,
     ContactusComponent,
     ElectionsComponent,
+    PasteventsComponent,
+    AchieventsComponent,
   
   ],
   imports: [

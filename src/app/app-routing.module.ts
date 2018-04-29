@@ -6,6 +6,9 @@ import { AffiliatedunitsComponent } from './affiliatedunits/affiliatedunits.comp
 import { GallaryComponent } from './gallary/gallary.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ElectionsComponent } from './elections/elections.component';
+import { PasteventsComponent } from './pastevents/pastevents.component';
+import { AchieventsComponent } from './achievents/achievents.component';
+
 
 
 const routes: Routes = [
@@ -19,6 +22,8 @@ const routes: Routes = [
       { path: 'gallery',  component: GallaryComponent },
       { path: 'contactus',  component: ContactusComponent },
       { path: 'elections',  component: ElectionsComponent },
+      { path: 'pastevents',  component: PasteventsComponent },
+      { path: 'achievements',  component: AchieventsComponent },
       
 
     ]

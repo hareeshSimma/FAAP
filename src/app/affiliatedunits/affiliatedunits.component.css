@@ -45,3 +45,11 @@ text-align:center;
 .active{
     cursor: pointer;
 }
+.boxModal{
+    text-align: center;
+    position: relative;
+    
+    top: 6pc;
+    box-shadow: 1px 0px 1px 1px #cac2c2;
+    padding: 4pc;
+}

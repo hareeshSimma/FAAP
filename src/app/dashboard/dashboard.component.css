@@ -13,3 +13,6 @@ a.lightbox img {
     .Myrow{
         text-align: center;
     }
+    .minHeight{
+        min-height: 650px;
+    }
